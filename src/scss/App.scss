@@ -1,0 +1,45 @@
+body,
+html {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root {
+    .app {
+        .header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 10vh;
+            width: 100%;
+            background: #E74F92;
+            h1 {
+                color: #52ECE2;
+                font-size: 5rem;
+            }
+            .img {
+                height: 90%;
+                border-radius: 50px;
+            }
+        }
+        .body {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            background-color: #52ECE2;  
+            color: #E74F92;
+            .album {
+                width: 299px;
+                border: 1px solid grey;
+                text-align: center;
+                background-color: #E74F92;
+                color:#52ECE2;
+                margin-top: 10px;
+                border-radius: 50px;
+                img {
+                    border-radius: 50px 50px 0 0;
+                }
+            }  
+        }
+    }
+}
